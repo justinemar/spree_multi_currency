@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-
+#3.3.0
   spree_version = '~> 3.3.0'
   s.add_runtime_dependency 'spree_api', spree_version
   s.add_runtime_dependency 'spree_backend', spree_version
