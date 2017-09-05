@@ -11,7 +11,7 @@ module SpreeMultiCurrency
     MAJOR = 3
     MINOR = 3
     TINY  = 0
-    PRE   = 'rc1'.freeze
+    PRE   = nil
 
     STRING = [MAJOR, MINOR, TINY, PRE].compact.join('.')
   end
